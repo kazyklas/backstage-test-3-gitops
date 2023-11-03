@@ -9,5 +9,3 @@ spec:
   type: website
   lifecycle: unknown
   owner: tklas
-  dependsOn:
-    - resource: 'backstage-test-3'
