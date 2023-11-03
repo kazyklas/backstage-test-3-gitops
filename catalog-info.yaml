@@ -4,7 +4,7 @@ metadata:
   name: backstage-test-3-gitops
   annotations:
     github.com/project-slug: kazyklas/backstage-test-3
-    argocd/app-name: nginx
+    argocd/app-name: nginx-gitops
 spec:
   type: website
   lifecycle: unknown
