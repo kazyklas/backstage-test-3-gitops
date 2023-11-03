@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: backstage-test-3-gitops
   annotations:
-    github.com/project-slug: kazyklas/backstage-test-3
+    github.com/project-slug: kazyklas/backstage-test-3-gitopas
     argocd/app-name: nginx-gitops
 spec:
   type: website
