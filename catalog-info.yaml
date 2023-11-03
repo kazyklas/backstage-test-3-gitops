@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test-3-gitops
+  annotations:
+    github.com/project-slug: kazyklas/backstage-test-3
+    argocd/app-name: nginx
+spec:
+  type: website
+  lifecycle: unknown
+  owner: tklas
