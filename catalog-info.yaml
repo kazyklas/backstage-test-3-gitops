@@ -10,4 +10,4 @@ spec:
   lifecycle: unknown
   owner: tklas
   dependsOn:
-    - resource: backstage-test-3
+    - resource: 'backstage-test-3'
