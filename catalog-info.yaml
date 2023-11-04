@@ -6,7 +6,7 @@ metadata:
     github.com/project-slug: kazyklas/backstage-test-3-gitopas
     argocd/app-name: nginx
     dependsOn:
-      - backstage-test-3
+      - 'backstage-test-3'
 spec:
   type: website
   lifecycle: unknown
