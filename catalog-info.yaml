@@ -5,8 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: kazyklas/backstage-test-3-gitopas
     argocd/app-name: nginx
-    dependsOn:
-      - resource:default/backstage-test-3
+    #dependsOn:
+    #  - resource:default/backstage-test-3
 spec:
   type: website
   lifecycle: unknown
